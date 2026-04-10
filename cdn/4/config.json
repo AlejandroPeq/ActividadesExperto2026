@@ -11,6 +11,19 @@
       "isVisible": true,
       "label": "Actividades",
       "header": true
+    },
+    "page_2": {
+      "id": "page_2",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_15"
+      },
+      "isDefault": false,
+      "isVisible": true,
+      "label": "Analítica",
+      "header": true,
+      "footer": false
     }
   },
   "layouts": {
@@ -139,6 +152,29 @@
             "vCenter": false,
             "hCenter": false
           }
+        },
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_26",
+          "bbox": {
+            "left": "78.4%",
+            "right": "118px",
+            "top": "50%",
+            "bottom": "26px",
+            "width": "299px",
+            "height": "35.8%"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO",
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": true,
+            "hCenter": false
+          }
         }
       },
       "type": "FIXED",
@@ -149,7 +185,8 @@
         "0",
         "1",
         "2",
-        "3"
+        "3",
+        "4"
       ]
     },
     "layout_2": {
@@ -377,6 +414,38 @@
         "0": {
           "type": "WIDGET",
           "widgetId": "widget_20",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_15": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_25",
           "bbox": {
             "left": "0%",
             "right": "0%",
@@ -1995,6 +2064,30 @@
       "useMapWidgetIds": [
         "widget_1"
       ]
+    },
+    "widget_25": {
+      "uri": "widgets/common/embed/",
+      "version": "1.20.0",
+      "label": "Embed",
+      "config": {
+        "embedType": "url",
+        "expression": "<p>https://analytics.google.com/analytics/web/#/a73881926p532411020/realtime/overview?params=_u..nav%3Dmaui%26_u..comparisons%3D%5B%7B%22savedComparisonId%22:%2214347536914%22,%22name%22:%22Todos%20los%20usuarios%22,%22isEnabled%22:true,%22filters%22:%5B%5D,%22systemDefinedSavedComparisonType%22:8,%22isSystemDefined%22:true%7D%5D</p>",
+        "enableLabel": false,
+        "honorThemeFont": false,
+        "embedCode": ""
+      },
+      "id": "widget_25",
+      "useDataSources": []
+    },
+    "widget_26": {
+      "uri": "widgets/common/menu/",
+      "version": "1.20.0",
+      "label": "Menu",
+      "config": {
+        "type": "nav",
+        "vertical": false
+      },
+      "id": "widget_26"
     }
   },
   "widgetsManifest": {},
@@ -2084,7 +2177,7 @@
     "type": "Web Experience",
     "thumbnail": null
   },
-  "timestamp": 1775845186759,
+  "timestamp": 1775846246659,
   "sharedThemeVariables": {
     "header": {},
     "body": {},
@@ -2471,6 +2564,9 @@
   "pageStructure": [
     {
       "page_0": []
+    },
+    {
+      "page_2": []
     }
   ],
   "header": {
@@ -2500,5 +2596,5 @@
       ]
     }
   },
-  "publishTimestamp": 1775845189163
+  "publishTimestamp": 1775846247436
 }
