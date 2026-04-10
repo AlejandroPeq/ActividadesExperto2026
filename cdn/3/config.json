@@ -607,7 +607,6 @@
       "label": "Text",
       "config": {
         "text": "<p><span style=\"font-size: 22px;\">﻿Actividades Madrid</span></p><p><span style=\"font-size: 15px;\">En los próximos 100 días</span></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -2027,9 +2026,9 @@
       "id": "section_1",
       "label": "Section",
       "views": [
+        "view_3",
         "view_1",
-        "view_2",
-        "view_3"
+        "view_2"
       ]
     }
   },
@@ -2076,9 +2075,16 @@
     }
   },
   "attributes": {
-    "portalUrl": "https://SSPP-Esri-Spain.maps.arcgis.com"
+    "portalUrl": "https://SSPP-Esri-Spain.maps.arcgis.com",
+    "isWebTier": false,
+    "clientId": "E9CnbIGCDWg68vs6",
+    "express": false,
+    "title": "Experiencia Actividades Experto 2026",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": null
   },
-  "timestamp": 1775842703990,
+  "timestamp": 1775845186759,
   "sharedThemeVariables": {
     "header": {},
     "body": {},
@@ -2477,5 +2483,22 @@
   },
   "permission": {
     "restrictions": []
-  }
+  },
+  "analytics": {
+    "enable": true,
+    "google": {
+      "measurementId": "G-N00DHRDZHR"
+    }
+  },
+  "cookieBanner": {
+    "uid": "c5ac7eb0-3509-11f1-a67e-e5538c550639"
+  },
+  "historyLabels": {
+    "pages": {
+      "page_0": [
+        "Page"
+      ]
+    }
+  },
+  "publishTimestamp": 1775845189163
 }
